@@ -1,11 +1,11 @@
 import './App.css'
+import TopBar from './Components/TopBar/TopBar'
 
 function App() {
 
   return (
     <>
-      
-      <h1>começando a fazer o clone do spotify</h1>
+      <TopBar/>
     </>
   )
 }
