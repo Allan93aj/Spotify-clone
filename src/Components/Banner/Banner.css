@@ -1,0 +1,78 @@
+.banner{
+    background: rgb(161, 36, 139);
+}
+
+.banner .wrapper-banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+}
+
+.banner .w-banner-txt h1{
+    color: #fff;   
+    font-weight: bold;
+}
+
+.banner .w-banner-txt .subtext-banner h2{
+    color: #fff;   
+}
+
+.banner .w-banner-txt .button-banner{
+    display: flex;
+    gap: 15px;
+}
+
+.banner .w-banner-txt .button-banner button{
+    padding: 13px;
+    border-radius: 500px;
+    border: none;
+}
+
+.banner .w-banner-txt .button-banner .experimente{
+    background: #000;
+    color: #fff;
+    padding: 13px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #000;
+    font-size: 14px;
+}
+
+
+.banner .w-banner-txt .button-banner .verPlanos{
+    border: 2px solid #fff;
+    background:transparent;
+    cursor: pointer;
+    color: #fff;
+    padding: 13px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.banner .w-banner-txt .footer-banner{
+    color: #fff;
+    font-size: 12px;
+    max-width: 670px;
+}
+
+.banner{
+    
+}
+
+.banner .w-banner-img img{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 20px 0 0;
+    display: flex;
+}
+
+.w-banner-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
